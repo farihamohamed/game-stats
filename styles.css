@@ -1,0 +1,164 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+
+.navbar{ 
+   height: 120px;
+   
+    
+}
+
+h1{
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.title{
+   
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #454444;
+        font-size: 48px;
+      
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icons{ 
+    width: 48px; 
+    margin: 10px;
+}
+
+.icons-nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+
+
+/* Main Section Styling */ 
+
+.new-game{
+    width: 588px;
+    height: 410px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 10px 5px 5px lightgrey;
+}
+
+
+
+
+
+
+/* Auth Page  Styling */
+
+
+.form-container{
+    height: 800px;
+    width: 90%;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 100%;
+    
+}
+
+
+input, button {
+    padding: 2px; /* Add padding to inputs and button */
+    width: 100%; /* Make sure all inputs are full width */
+    box-sizing: border-box; /* Prevent padding from affecting width */
+   
+}
+
+.form-login{
+    height:600px;
+    width: 45%;
+    margin: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.form-title{ 
+    font-size: 3rem;
+    margin: 0 auto;
+}
+
+.form-submit{
+
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 2px;
+    
+}
+ 
+/* Login Input Fields (smaller sizes) */
+.login-field{ 
+    all: unset;
+    width: 80%;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin: 20px auto;
+    border-color: #D9D9D9;
+    
+
+}
+
+#log-btn{ 
+    border-color: #6EABED;
+    background-color: #8DC4FF;
+
+}
+
+
+#log-btn:hover{
+    background-color:#6EABED;
+    color: white;
+
+}
+
+/* Sign up Input */
+#sign-btn{
+    border-color: #FF8259;
+    background-color: #FDA98E;
+
+}
+
+#sign-btn:hover{
+    background-color:#FF8259;
+    color: white;
+}
